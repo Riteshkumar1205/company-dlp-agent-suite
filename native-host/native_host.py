@@ -1,10 +1,5 @@
-"""
-Native messaging host. Reads length-prefixed JSON messages from stdin, forwards to local agent.
-Build to exe with PyInstaller and register host manifest for Chrome/Firefox.
-"""
-
+#!/usr/bin/env python3
 import sys, struct, json, requests, logging, os
-
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("native_host")
 AGENT_LOCAL_ENDPOINT = os.environ.get("AGENT_LOCAL_ENDPOINT", "http://127.0.0.1:7010/native/events")
