@@ -1,4 +1,4 @@
-watchdog==3.0.0
+watchdog==2.1.6
 pyudev==0.24.0
 Pillow==10.0.1
 imagehash==4.3.1
