@@ -1,0 +1,9 @@
+{
+  "name": "com.company.upload_detector",
+  "description": "Native host for Company Upload Detector",
+  "path": "C:\\Program Files\\CompanyAgent\\native_host.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://__YOUR_EXTENSION_ID__/"
+  ]
+}
